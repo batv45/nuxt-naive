@@ -1,0 +1,52 @@
+{
+  "common": {
+    "primaryColorrrrr": "#11191f",
+    "primaryColor": "#0a0916",
+    "primaryColorHover": "#212529",
+    "primaryColorPressed": "#0a0916",
+    "primaryColorSuppl": "#495057",
+    "infoColor": "#2080f0",
+    "infoColorHover": "#4098fc",
+    "infoColorPressed": "#1060c9",
+    "infoColorSuppl": "#4098fc",
+    "successColor": "#18a058",
+    "successColorHover": "#36ad6a",
+    "successColorPressed": "#0c7a43",
+    "successColorSuppl": "#36ad6a",
+    "warningColor": "#f0a020",
+    "warningColorHover": "#fcb040",
+    "warningColorPressed": "#c97c10",
+    "warningColorSuppl": "#fcb040",
+    "errorColor": "#d03050",
+    "errorColorHover": "#de576d",
+    "errorColorPressed": "#ab1f3f",
+    "errorColorSuppl": "#de576d",
+    "borderColor": "#dfe0e1"
+  },
+  "Layout": {},
+  "Table": {
+    "borderColor": "#e5e6e7",
+    "borderColorModal": "#e5e6e7",
+    "borderColorPopover": "#e5e6e7"
+  },
+  "Card": {
+    "borderColor": "#dfe0e1"
+  },
+  "Message": {
+    "colorSuccess": "#03C509FF",
+    "iconColorSuccess": "#ffffffFF",
+    "textColorSuccess": "#ffffffFF",
+
+    "colorError": "#D03050FF",
+    "iconColorError": "#ffffffFF",
+    "textColorError": "#ffffffFF",
+
+    "colorInfo": "#2080F0FF",
+    "iconColorInfo": "#ffffffFF",
+    "textColorInfo": "#ffffffFF",
+
+    "colorWarning": "#F0A020FF",
+    "iconColorWarning": "#ffffffFF",
+    "textColorWarning": "#ffffffFF"
+  }
+}
