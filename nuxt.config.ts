@@ -2,9 +2,9 @@
 export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   build: {
-    transpile: ['naive-ui', 'vueuc'],
   },
   devtools: { enabled: true },
+  ssr: false,
   modules: ['@nuxt/eslint', '@nuxt/icon', 'nuxtjs-naive-ui', '@unocss/nuxt'],
   app: {
     head: {

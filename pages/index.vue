@@ -1,13 +1,11 @@
 <script setup lang="ts">
 import { NButton, NConfigProvider, useMessage } from "naive-ui";
 
-const message = useMessage();
-
 function go() {
-  message.info("ÖRNEK");
+  $message.info("ÖRNEK");
 }
 definePageMeta({
-  layout: "app",
+  layout: "app-vertical",
 });
 
 useHead({
@@ -16,9 +14,20 @@ useHead({
 </script>
 
 <template>
-  <div class="bg-gray-3">
+  <div class="">
     <span class="text-12 bg-red">CONTENT</span>
     <h1>MERHABA BURASU INDEX NUXT</h1>
-    <NButton @click="go">Hello World</NButton>
+    <div class="space-x-2">
+      <NButton type="primary" @click="go">Hello World</NButton>
+      <NButton type="primary" @click="setPageLayout(false)"
+        >layout false</NButton
+      >
+      <NButton type="primary" @click="setPageLayout('app-vertical')"
+        >layout vertical</NButton
+      >
+      <NButton type="primary" @click="setPageLayout('app-horizontal')"
+        >layout horizontal</NButton
+      >
+    </div>
   </div>
 </template>

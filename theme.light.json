@@ -1,6 +1,5 @@
 {
   "common": {
-    "primaryColorrrrr": "#11191f",
     "primaryColor": "#0a0916",
     "primaryColorHover": "#212529",
     "primaryColorPressed": "#0a0916",
@@ -21,30 +20,28 @@
     "errorColorHover": "#de576d",
     "errorColorPressed": "#ab1f3f",
     "errorColorSuppl": "#de576d",
-    "borderColor": "#dfe0e1"
+    "borderColor": "rgba(4, 32, 69, 0.16)",
+    "textColor1": "#374151",
+    "textColor2": "#374151",
+    "textColor3": "#374151"
   },
-  "Layout": {},
-  "Table": {
-    "borderColor": "#e5e6e7",
-    "borderColorModal": "#e5e6e7",
-    "borderColorPopover": "#e5e6e7"
+  "Layout": {
+    "color": "#f9fafb"
   },
+  "Table": {},
   "Card": {
-    "borderColor": "#dfe0e1"
+    "borderColor": "rgba(4, 32, 69, 0.16)"
   },
   "Message": {
     "colorSuccess": "#03C509FF",
     "iconColorSuccess": "#ffffffFF",
     "textColorSuccess": "#ffffffFF",
-
     "colorError": "#D03050FF",
     "iconColorError": "#ffffffFF",
     "textColorError": "#ffffffFF",
-
     "colorInfo": "#2080F0FF",
     "iconColorInfo": "#ffffffFF",
     "textColorInfo": "#ffffffFF",
-
     "colorWarning": "#F0A020FF",
     "iconColorWarning": "#ffffffFF",
     "textColorWarning": "#ffffffFF"
