@@ -5,7 +5,7 @@ import { NFlex } from "naive-ui";
 <template>
   <NFlex
     vertical
-    class="text-2xl text-orange-600 font-bold p-2 px-4 text-center border rounded cursor-pointer shadow-sm hover:shadow"
+    class="text-2xl text-orange-600 font-bold p-1 px-4 text-center bg-gray-1 rounded cursor-pointer  shadow-sm shadow-gray-3 hover:shadow-md"
     @click.prevent="$router.push('/')"
   >
     <span>EcuPro</span>
